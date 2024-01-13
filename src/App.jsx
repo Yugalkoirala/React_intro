@@ -1,9 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Card from './Card.jsx'
 import Counter from './Counter.jsx'
+import MuiCard from './muiCard.jsx'
+import CourseCard from './CourseCard.jsx';
 
 // react-component=>special type of Js function which return html
 //* name should be started with capital letter
@@ -12,9 +10,11 @@ import Counter from './Counter.jsx'
 function App() {
   return(
     <div>
-      <h3>Welcome To React</h3>
-      <Card/>
-      <Counter/>
+      {/* <h3>Welcome To React</h3> */}
+      {/* <Card/> */}
+      {/* <MuiCard/>
+      <Counter/> */}
+      <CourseCard/>
     </div>
   );
 }
