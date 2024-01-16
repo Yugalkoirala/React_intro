@@ -30,7 +30,7 @@ const HooksIntro = () => {
     <Box
       sx ={{
         // background:"gray",
-        padding:"2rem",
+        padding:"3rem",
         display:"flex",
         justifyContent:"center",
         alignItems:"center",
