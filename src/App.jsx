@@ -1,20 +1,20 @@
-import './App.css'
-import Counter from './Counter.jsx'
-import MuiCard from './muiCard.jsx'
-import CourseCard from './CourseCard.jsx';
+import './App.css';
+import Counter from './hooks/Counter.jsx';
+import HooksIntro from './hooks/Hooksintro.jsx';
 
 // react-component=>special type of Js function which return html
 //* name should be started with capital letter
 //* extension jsx(javascript xml)
 
 function App() {
-  return(
+  return (
     <div>
       {/* <h3>Welcome To React</h3> */}
       {/* <Card/> */}
-      {/* <MuiCard/>
-      <Counter/> */}
-      <CourseCard/>
+      {/* <MuiCard/> */}
+      {/* <HooksIntro /> */}
+      {/* <CourseCard/> */}
+      <Counter/>
     </div>
   );
 }
