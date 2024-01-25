@@ -1,6 +1,6 @@
+import SignupForm from './AddUserForm.jsx';
 import './App.css';
-import Counter from './hooks/Counter.jsx';
-import HooksIntro from './hooks/Hooksintro.jsx';
+import ToDoForm from './ToDoForm.jsx';
 
 // react-component=>special type of Js function which return html
 //* name should be started with capital letter
@@ -14,7 +14,9 @@ function App() {
       {/* <MuiCard/> */}
       {/* <HooksIntro /> */}
       {/* <CourseCard/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <SignupForm/> */}
+      <ToDoForm/>
     </div>
   );
 }
